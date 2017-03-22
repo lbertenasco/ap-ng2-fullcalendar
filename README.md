@@ -10,7 +10,7 @@ npm install ap-angular2-fullcalendar --save
 ## Usage
 #### Import the calendar component
 ```
-import {CalendarComponent} from "angular2-fullcalendar/src/calendar/calendar";
+import {CalendarComponent} from "ap-angular2-fullcalendar/src/calendar/calendar";
 // other imports
 
 @NgModule({
