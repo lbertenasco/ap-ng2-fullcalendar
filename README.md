@@ -98,7 +98,7 @@ export class MyComponent{
 ```
 #### Add selector in template file my-component.html
 ```
-<angular2-fullcalendar [options]="calendarOptions"></angular2-fullcalendar>
+<angular2-fullcalendar [options]="calendarOptions" (initialized)="onCalendarInit($event)"></angular2-fullcalendar>
 ```
 #### Import the fullcalendar css
 If you're using Angular CLI, this is as simple as including one line in your style.css file:
