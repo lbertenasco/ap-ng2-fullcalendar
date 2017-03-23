@@ -8,17 +8,25 @@ An Angular 2 component for [fullcalendar](https://fullcalendar.io/).
 npm install ap-angular2-fullcalendar --save
 ```
 ## Usage
+#### Import the calendar module
+```
+import {CalendarModule} from "ap-angular2-fullcalendar";
+
+@NgModule({
+  imports: [
+    CalendarModule
+  ],
+})
+export class AppModule {}
+```
 #### Import the calendar component
 ```
-import {CalendarComponent} from "ap-angular2-fullcalendar/src/calendar/calendar";
-// other imports
+import {CalendarComponent} from "ap-angular2-fullcalendar";
 
 @NgModule({
   declarations: [
-    // other declarations
     CalendarComponent
   ],
-  // ...
 })
 export class AppModule {}
 ```
@@ -112,6 +120,8 @@ Alternatively, you can just reference the file directly. This would look somethi
 
 #### Use CalendarComponent as a ViewChild
 ```
+import {CalendarComponent} from "ap-angular2-fullcalendar";
+
 export class MyComponent{
   @ViewChild(CalendarComponent) myCalendar: CalendarComponent;
 
