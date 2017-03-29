@@ -1,6 +1,6 @@
 # dependencies
 node_modules/
-
+dist/
 # tsc generated files
 *.map
 *.js
@@ -8,3 +8,6 @@ node_modules/
 src/*/*.map
 src/*/*.js
 src/*/*.d.ts
+npm-debug.log
+**/*.ngfactory.ts
+**/*.ngsummary.json

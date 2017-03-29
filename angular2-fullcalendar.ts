@@ -1,10 +1,6 @@
+import { NgModule, ModuleWithProviders } from "@angular/core";
 import { CalendarComponent } from './src/calendar/calendar';
-import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
-
-export const Calendar: any[] = [
-    CalendarComponent
-];
 
 @NgModule({
     imports: [
@@ -19,5 +15,10 @@ export const Calendar: any[] = [
 })
 
 export class CalendarModule {
-
+    static(): ModuleWithProviders {
+        return {
+            ngModule: CalendarModule,
+            providers: []
+        };
+    }
 }
