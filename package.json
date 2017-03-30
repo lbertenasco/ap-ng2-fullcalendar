@@ -1,6 +1,6 @@
 {
   "name": "ap-angular2-fullcalendar",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Angular2 component for FullCalendar",
   "main": "index.js",
   "scripts": {
