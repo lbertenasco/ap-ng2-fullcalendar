@@ -1,10 +1,10 @@
 {
   "name": "ap-angular2-fullcalendar",
-  "version": "1.1.7",
+  "version": "1.2.0",
   "description": "Angular2 component for FullCalendar",
   "main": "index.js",
   "scripts": {
-    "build": "ngc build -p ./tsconfig.json",
+    "build": "rm -rf dist/ && ngc build -p ./tsconfig.json",
     "release": "npm run build && cp package.json dist/ && cd dist/ && npm publish && cd .."
   },
   "repository": {
@@ -13,9 +13,10 @@
   },
   "keywords": [
     "fullcalendar",
-    "angular 2",
     "angular",
     "calendar"
+    "angular 4",
+    "angular 2",
   ],
   "author": "Luciano Bertenasco <lbertenasco@gmail.com> ()",
   "license": "MIT",
@@ -24,20 +25,19 @@
   },
   "homepage": "https://github.com/lbertenasco/ap-ng2-fullcalendar#readme",
   "dependencies": {
-    "@angular/common": "4.0.0",
-    "@angular/core": "4.0.0",
-    "@angular/forms": "4.0.0",
-    "@types/fullcalendar": "2.7.38",
+    "@angular/common": "4.0.1",
+    "@angular/core": "4.0.1",
+    "@angular/forms": "4.0.1",
+    "@types/fullcalendar": "2.7.39",
     "@types/jquery": "2.0.41",
     "@types/moment": "2.13.0",
     "@types/node": "7.0.12",
-    "fullcalendar": "3.3.0",
-    "ngc": "^1.0.0"
+    "fullcalendar": "3.3.0"
   },
   "devDependencies": {
-    "@angular/compiler": "4.0.0",
-    "@angular/compiler-cli": "^4.0.0",
-    "@angular/platform-browser": "4.0.0",
+    "@angular/compiler": "4.0.1",
+    "@angular/compiler-cli": "4.0.1",
+    "@angular/platform-browser": "4.0.1",
     "ng2-datepicker": "2.0.0-dev5",
     "rxjs": "5.2.0",
     "typescript": "2.2.2"
