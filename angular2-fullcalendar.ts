@@ -15,7 +15,7 @@ import { CommonModule } from "@angular/common";
 })
 
 export class CalendarModule {
-    static(): ModuleWithProviders {
+    static forRoot(): ModuleWithProviders {
         return {
             ngModule: CalendarModule,
             providers: []
