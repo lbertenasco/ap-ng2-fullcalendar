@@ -1,6 +1,6 @@
 {
   "name": "ap-angular2-fullcalendar",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Angular2 component for FullCalendar",
   "main": "index.js",
   "scripts": {
@@ -25,21 +25,21 @@
   },
   "homepage": "https://github.com/lbertenasco/ap-ng2-fullcalendar#readme",
   "dependencies": {
-    "@angular/common": "4.0.1",
-    "@angular/core": "4.0.1",
-    "@angular/forms": "4.0.1",
-    "@types/fullcalendar": "2.7.39",
+    "@angular/common": "4.0.2",
+    "@angular/core": "4.0.2",
+    "@angular/forms": "4.0.2",
+    "@types/fullcalendar": "2.7.40",
     "@types/jquery": "2.0.41",
     "@types/moment": "2.13.0",
     "@types/node": "7.0.12",
-    "fullcalendar": "3.3.0"
+    "fullcalendar": "3.3.1"
   },
   "devDependencies": {
-    "@angular/compiler": "4.0.1",
-    "@angular/compiler-cli": "4.0.1",
-    "@angular/platform-browser": "4.0.1",
+    "@angular/compiler": "4.0.2",
+    "@angular/compiler-cli": "4.0.2",
+    "@angular/platform-browser": "4.0.2",
     "ng2-datepicker": "2.0.0-dev5",
-    "rxjs": "5.2.0",
+    "rxjs": "5.3.0",
     "typescript": "2.2.2"
   }
 }
