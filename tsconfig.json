@@ -18,9 +18,5 @@
     "node_modules",
     "dist",
     "**/*.spec.ts"
-  ],
-  "angularCompilerOptions": {
-    "genDir": "./dist",
-    "skipMetadataEmit": true
-  }
+  ]
 }
