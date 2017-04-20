@@ -1,6 +1,6 @@
 {
   "name": "ap-angular2-fullcalendar",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Angular2 component for FullCalendar",
   "main": "index.js",
   "scripts": {
@@ -28,10 +28,10 @@
     "@angular/common": "4.0.2",
     "@angular/core": "4.0.2",
     "@angular/forms": "4.0.2",
-    "@types/fullcalendar": "2.7.40",
+    "@types/fullcalendar": "2.7.41",
     "@types/jquery": "2.0.41",
     "@types/moment": "2.13.0",
-    "@types/node": "7.0.12",
+    "@types/node": "7.0.13",
     "fullcalendar": "3.3.1"
   },
   "devDependencies": {
