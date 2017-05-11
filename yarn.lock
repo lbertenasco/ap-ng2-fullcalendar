@@ -2,37 +2,37 @@
 # yarn lockfile v1
 
 
-"@angular/common@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.1.1.tgz#088a13a70c5390c5c9613aa05754b74ee18e1afb"
+"@angular/common@^4.1.x":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-4.1.2.tgz#8f6d0496c204210bfe255feb437a72253f06984d"
 
-"@angular/compiler-cli@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-4.1.1.tgz#8cea89ee12129c3f0edb55853e18b37b164f2953"
+"@angular/compiler-cli@^4.1.x":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-4.1.2.tgz#b65ba8980330c048702aed242a956daf0251f02a"
   dependencies:
-    "@angular/tsc-wrapped" "4.1.1"
+    "@angular/tsc-wrapped" "4.1.2"
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
 
-"@angular/compiler@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.1.1.tgz#fc62459056465f624c3ac6f68dadcc9ba74c4ae0"
+"@angular/compiler@^4.1.x":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-4.1.2.tgz#09542381162fd8dd962d84559498ce69a05071ea"
 
-"@angular/core@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.1.1.tgz#1230645c842f8a6a050403d4947f982e7ef70c60"
+"@angular/core@^4.1.x":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-4.1.2.tgz#37b5c040b9dd37003499aea04319d699e3870596"
 
-"@angular/forms@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-4.1.1.tgz#6af39f7c416e9f038c39f7ee5bfa51d9da550bf0"
+"@angular/forms@^4.1.x":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-4.1.2.tgz#82983e9ec5d0833e7ae14beb8e47dd357c88f490"
 
-"@angular/platform-browser@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.1.1.tgz#e2f545b458e7858cc0b20b0ae4cc99237560fb72"
+"@angular/platform-browser@^4.1.x":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.1.2.tgz#16e50a8f75b4d675c9e2903e499e0fe4c6a125ac"
 
-"@angular/tsc-wrapped@4.1.1":
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.1.1.tgz#ade793cdbe64c650c5f5946ff424c6a3577b09d8"
+"@angular/tsc-wrapped@4.1.2":
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/@angular/tsc-wrapped/-/tsc-wrapped-4.1.2.tgz#26cb145a67b9b80f5dda7874c4f0b1f1e173927d"
   dependencies:
     tsickle "^0.21.0"
 
@@ -94,9 +94,9 @@ reflect-metadata@^0.1.2:
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.10.tgz#b4f83704416acad89988c9b15635d47e03b9344a"
 
-rxjs@5.3.1:
-  version "5.3.1"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.3.1.tgz#9ecc9e722247e4f4490d30a878577a3740fd0cb7"
+rxjs@5.4.0:
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.4.0.tgz#a7db14ab157f9d7aac6a56e655e7a3860d39bf26"
   dependencies:
     symbol-observable "^1.0.1"
 
