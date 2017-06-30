@@ -19,7 +19,7 @@ import {CalendarModule} from "ap-angular2-fullcalendar";
 })
 export class AppModule {}
 ```
-#### Import the calendar component
+#### Or import the calendar component
 ```
 import {CalendarComponent} from "ap-angular2-fullcalendar";
 
