@@ -14,7 +14,7 @@ import {CalendarModule} from "ap-angular2-fullcalendar";
 
 @NgModule({
   imports: [
-    CalendarModule.forRoot()
+    CalendarModule
   ],
 })
 export class AppModule {}
