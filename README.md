@@ -116,6 +116,15 @@ If you're using Angular CLI, this is as simple as including one line in your sty
 ```
 @import "fullcalendar/fullcalendar.min.css";
 ```
+If this does not work you can try by importing fullcalendar.
+```bash
+npm install --save fullcalendar
+```
+and include:
+```css
+@import "../node_modules/fullcalendar/dist/fullcalendar.min.css";
+```
+
 Alternatively, you can just reference the file directly. This would look something like
 ```
 <link href="node_modules/fullcalendar/fullcalendar.min.css" rel="stylesheet">
