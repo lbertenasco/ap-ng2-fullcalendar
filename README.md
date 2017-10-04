@@ -102,7 +102,7 @@ export class MyComponent {
       ]
     };
 
-    onCalendarInit() {
+    onCalendarInit(initialized: boolean) {
       console.log('Calendar initialized');
     }
 }
