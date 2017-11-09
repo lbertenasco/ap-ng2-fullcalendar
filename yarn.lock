@@ -3,14 +3,14 @@
 
 
 "@angular/common@^5.x.x":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.0.0.tgz#f96d66a517b995d1ba9b28309f15c2e359675825"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.0.1.tgz#43005ab3c8b8ffaf176aafb3b86ba931c3e4bdf9"
   dependencies:
     tslib "^1.7.1"
 
 "@angular/compiler-cli@^5.x.x":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-5.0.0.tgz#0ecbb937d84a4f8dd94f0c2a47b07d2e4694c853"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-5.0.1.tgz#526dc1bb394fb16ad916601eea9aa00eb44b4fff"
   dependencies:
     chokidar "^1.4.2"
     minimist "^1.2.0"
@@ -18,26 +18,26 @@
     tsickle "^0.24.0"
 
 "@angular/compiler@^5.x.x":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-5.0.0.tgz#b9ffbf18c8a39d8b7dacec473193a90e24cc2bc9"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-5.0.1.tgz#7fd4c7fa4bbbef4c146962fa946b827330a6c8ed"
   dependencies:
     tslib "^1.7.1"
 
 "@angular/core@^5.x.x":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.0.0.tgz#4f976a225f7dddf34992f2cad824c9543a46f4c8"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.0.1.tgz#a4a74afc7e2058d30b8263eb6d66daace9f427ba"
   dependencies:
     tslib "^1.7.1"
 
 "@angular/forms@^5.x.x":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.0.0.tgz#c7fddfa35396759ae9852920a30cdda8c41ed1de"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-5.0.1.tgz#69f303c4c13da3caa0de63437588388b6ad62b21"
   dependencies:
     tslib "^1.7.1"
 
 "@angular/platform-browser@^5.x.x":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.0.0.tgz#c7038f7cde80705b62014897231e182eec976fed"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.0.1.tgz#14895dd30ed2a30ee7b99c76b764748f46c1a862"
   dependencies:
     tslib "^1.7.1"
 
@@ -351,9 +351,9 @@ fstream@^1.0.0, fstream@^1.0.10, fstream@^1.0.2:
     mkdirp ">=0.5 0"
     rimraf "2"
 
-fullcalendar@3.6.2:
-  version "3.6.2"
-  resolved "https://registry.yarnpkg.com/fullcalendar/-/fullcalendar-3.6.2.tgz#64956e7431be394b3d505b327f6b2e8f629c91da"
+fullcalendar@3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/fullcalendar/-/fullcalendar-3.4.0.tgz#34dabff2abe5e85f70025c789a5b9dc3ea4c4762"
   dependencies:
     jquery "2 - 3"
     moment "^2.9.0"
