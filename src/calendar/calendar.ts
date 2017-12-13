@@ -5,6 +5,7 @@ import {
     ElementRef,
     EventEmitter,
     AfterViewInit,
+    NgZone,
 } from '@angular/core';
 import * as $ from 'jquery';
 import 'fullcalendar';
@@ -20,14 +21,15 @@ export class CalendarComponent implements AfterViewInit {
   @Output() initialized: EventEmitter<boolean> = new EventEmitter<boolean>();
   text: string;
 
-  constructor(private element:ElementRef) {
+  constructor(private element:ElementRef, private zone: NgZone) {
   }
 
   ngAfterViewInit(){
-    setTimeout(()=>{
-      // console.log("100ms after ngAfterViewInit ");
-      $('angular2-fullcalendar').fullCalendar(this.options);
-      this.initialized.emit(true);
+    setTimeout(() => {
+      this.zone.runOutsideAngular(() => {
+        $('angular2-fullcalendar').fullCalendar(this.options);
+        this.initialized.emit(true);
+      })
     }, 100)
   }
 
