@@ -9,7 +9,7 @@ import {
 } from '@angular/core';
 import * as $ from 'jquery';
 import 'fullcalendar';
-import {Options} from "fullcalendar";
+import { OptionsInput } from 'fullcalendar';
 
 @Component({
   template: '<div></div>',
@@ -17,7 +17,7 @@ import {Options} from "fullcalendar";
 })
 export class CalendarComponent implements AfterViewInit {
 
-  @Input() options: Options;
+  @Input() options: OptionsInput;
   @Output() initialized: EventEmitter<boolean> = new EventEmitter<boolean>();
   text: string;
 

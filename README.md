@@ -1,16 +1,20 @@
 
-# Angular 2: FullCalendar component
+# Angular: FullCalendar component
 
-An Angular 2 component for [fullcalendar](https://fullcalendar.io/).
+An Angular component for [fullcalendar](https://fullcalendar.io/).
 
 ## Installation
 ```
-npm install ap-angular2-fullcalendar --save
+npm install @types/jquery --save-dev # For Angular 6
+npm install ap-angular-fullcalendar --save # For Angular 6
+npm install ap-angular2-fullcalendar@1.3.7 --save -E # For Angular 5
+npm install ap-angular2-fullcalendar@1.3.1 --save -E # For Angular 4
 ```
 ## Usage
 #### Import the calendar module
 ```
-import {CalendarModule} from "ap-angular2-fullcalendar";
+import * as $ from 'jquery'; // For Angular 6
+import {CalendarModule} from "ap-angular-fullcalendar";
 
 @NgModule({
   imports: [
@@ -21,7 +25,8 @@ export class AppModule {}
 ```
 #### Or import the calendar component
 ```
-import {CalendarComponent} from "ap-angular2-fullcalendar";
+import * as $ from 'jquery'; // For Angular 6
+import {CalendarComponent} from "ap-angular-fullcalendar";
 
 @NgModule({
   declarations: [
@@ -132,7 +137,7 @@ Alternatively, you can just reference the file directly. This would look somethi
 
 #### Use CalendarComponent as a ViewChild
 ```
-import {CalendarComponent} from "ap-angular2-fullcalendar";
+import {CalendarComponent} from "ap-angular-fullcalendar";
 
 export class MyComponent{
   @ViewChild(CalendarComponent) myCalendar: CalendarComponent;
