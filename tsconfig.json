@@ -11,6 +11,13 @@
     "sourceMap": true,
     "target": "es5"
   },
+  "include": [
+    "./index.ts",
+    "./angular2-fullcalendar.ts",
+    "./src/**/*.scss",
+    "./src/**/*.html",
+    "./src/**/*.ts"
+  ],
   "exclude": [
     "node_modules",
     "dist",
