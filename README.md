@@ -3,6 +3,8 @@
 
 An Angular component for [fullcalendar](https://fullcalendar.io/).
 
+Demo app in https://github.com/lbertenasco/ap-ng2-fullcalendar-demo
+
 ## Installation
 ```
 npm install @types/jquery --save-dev # For Angular 6
